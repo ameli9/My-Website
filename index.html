@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Menú</a>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/_!DOCTYPE%20html_.html">CinesTres</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,18 +28,15 @@
                           Cartelera
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Películas de acción</a></li>
-                          <li><a class="dropdown-item" href="#">Películas de terror</a></li>
-                          <li><a class="dropdown-item" href="#">Películas de comedia</a></li>
-                        
-                    
+                          <li><a class="dropdown-item" href="#accion">Películas de acción</a></li>
+                          <li><a class="dropdown-item" href="#terror">Películas de terror</a></li>
+                          <li><a class="dropdown-item" href="#animacion">Películas de animación</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#">Todo</a></li>
                         </ul>
                       </li>
-                  
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true">Promociones</a>
+                        <a class="nav-link" href="#promociones">Promociones</a>
                     </li>
                     <li class="nav-item"></li>
                         <a class="nav-link" aria-disabled="true">Nuestros cines</a>
@@ -61,8 +58,12 @@
     <div class="container">
         <div class="row" id="main">
             <div class="col">
-                <h1 style="background-color:rgb(255, 155, 217);">THE CINEMA</h1>
-                <p>This is a text to greet our visitors.</p>
+                <h1 style="text-align: center;">CineTres</h1>
+                <p class="mt-4" style="text-align: center;">Bienvenidos a Cine Tres, donde la magia del cine cobra vida en cada proyección. 
+                  En CineTres celebramos la diversidad de historias y perspectivas, proyectando desde clásicos del cine hasta las últimas producciones independientes.
+                  Ven a disfrutar de la mejor selección de películas en un ambiente acogedor y lleno de creatividad.
+                </p>
+                <p style="text-align: center;">¡Tu próxima gran aventura empieza en nuestras pantallas!</p>
             </div>
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
@@ -72,27 +73,27 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="Fotos pelis/Jokerpeli.jpg" class="d-block w-100" alt="...">
+                    <img src="Fotos/Joker.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Joker: Folie a deux</h5>
+                      <h5>Joker</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="Fotos pelis/Furiosa estaaa.jpg" class="d-block w-100" alt="...">
+                    <img src="Fotos/Robot salvaje.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Furiosa</h5>
+                      <h5>Robot Salvaje</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="Fotos pelis/Gru 4esteee.jpg" class="d-block w-100" alt="...">
+                    <img src="Fotos/Gru4.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Mi villano favorito 4</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="Fotos pelis/Bittlechussss.jpg" class="d-block w-100" alt="...">
+                    <img src="Fotos/Bittlechussss.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Bittlechús</h5>
+                      <h5>Bitelchús Bitelchús</h5>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -105,36 +106,414 @@
                 </button>
               </div>
              </div>
-    <!--Columnas-->
+    <div>
+       <h1 class="mt-5" style="text-align: center;">CARTELERA</h1>
+    <p class="mt-2" style="text-align: center;">Descubre nuestra selección de películas que te harán vivir emociones intensas. 
+       Desde la adrenalina de las mejores <strong>películas de acción</strong>, pasando por el suspenso y los sustos del <strong>terror</strong>, hasta las risas aseguradas con las <strong>comedias</strong> más divertidas. </p>
+    </div>
+      <!--Columnas cartelera-->
+      <section id="accion">
+        <h2 class="mt-3">ACCIÓN</h2>
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <h2>Top Gun: Maverick</h2>
+          <h3 class="mb-3">Top Gun: Maverick</h3>
           <a href="https://youtu.be/zmFdhZ6gyUM" target="_blank">
-           <img src="https://es.web.img2.acsta.net/pictures/22/03/29/15/57/1533124.jpg" class="img-fluid" alt="TopGun"> 
+           <img src="Fotos/Top gun cartel.jpg" class="img-fluid" alt="TopGun"> 
           </a>
-          <p style="text-align: justify;">Si no has volado bien alto con Top Gun Maverick, ¿a qué estás esperando? !Haz realidad el sueño de pilotar un F18 gracias a la tecnología de los Cines Filmax Gran Via 4DX! En nuestros cines tenemos de nuevo al piloto más famoso del mundo. 
+          <h4 class="mt-3" style="text-align: justify;">Duración: 130 minutos</h4>
+          <p style="text-align: justify;">Si no has volado bien alto con Top Gun Maverick, ¿a qué estás esperando? !Haz realidad el sueño de pilotar un F18 gracias a la tecnología de los CinesTres 4DX! En nuestros cines tenemos de nuevo al piloto más famoso del mundo. 
             ¿Te vas a perder la mayor experiencia cinematográfica militar? En nuestros cines te damos la oportunidad de sentirte uno más del equipo de aviadores con nuestro 4DX... !A despegar!</p>
-        </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope ="col">Día</th>
+                  <th scope="col">Hora</th>
+                  <th scope="col">Formato</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Hoy</th>
+                  <td>16:00h</td>
+                  <td>3D</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jueves</th>
+                  <td>18:00h</td>
+                  <td>4D</td>
+                </tr>
+                <tr>
+                  <th scope="row">Viernes</th>
+                  <td>17:00h</td>
+                  <td>2D</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         <div class="col">
-          <h2>Spider-Man: No way home</h2>
+          <h3 class="mb-3">Spider-Man: No way home</h3>
           <a href="https://youtu.be/SkmRT3M4Vx4" target="_blank">
-            <img src="https://www.ecartelera.com/carteles/15800/15882/005_m.jpg" class="img-fluid" alt="Spider-Man">
+            <img src="Fotos/Spider man.jpg" class="img-fluid" alt="Spider-Man">
           </a>
+          <h4 class="mt-3" style="text-align: justify;">Duración: 148 minutos</h4>
           <p style="text-align: justify;">Por primera vez en la historia cinematográfica de Spider-Man, nuestro amigable héroe está desenmascarado y ya no puede separar su vida normal de la de ser un superhéroe.
             Cuando le pide ayuda al Doctor Strange, lo que está en juego se vuelve aún más peligroso, algo que lo obliga a descubrir lo que realmente significa ser Spider-Man.
           </p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope ="col">Día</th>
+                <th scope="col">Hora</th>
+                <th scope="col">Formato</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Hoy</th>
+                <td>15:00h</td>
+                <td>3D</td>
+              </tr>
+              <tr>
+                <th scope="row">Jueves</th>
+                <td>17:00h</td>
+                <td>2D</td>
+              </tr>
+              <tr>
+                <th scope="row">Viernes</th>
+                <td>22:00h</td>
+                <td>3D</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="col">
-          <h2>Kraven the Hunter</h2>
+          <h3 class="mb-3">Kraven the Hunter</h3>
           <a href="https://youtu.be/JoWdhvrkKjo" target="_blank">
-            <img src="https://www.ecartelera.com/carteles/17900/17933/001.jpg" class="img-fluid" alt="Kraven">
+            <img src="Fotos/Kraven the hunter.jpg" class="img-fluid" alt="Kraven">
           </a>
+          <h4 class="mt-3" style="text-align: justify;">Duración: 140 minutos</h4>
           <p style="text-align: justify;"> El inmigrante ruso Sergei Kravinoff está en una misión para demostrar que es el mejor cazador del mundo.
           </p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope ="col">Día</th>
+                <th scope="col">Hora</th>
+                <th scope="col">Formato</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Hoy</th>
+                <td>16:30h</td>
+                <td>2D</td>
+              </tr>
+              <tr>
+                <th scope="row">Jueves</th>
+                <td>17:00h</td>
+                <td>2D</td>
+              </tr>
+              <tr>
+                <th scope="row">Viernes</th>
+                <td>19:00h</td>
+                <td>2D</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </div>
+      </section>
+<!--Columna terror-->
+      <section id="terror">
+      <h2 class="mb-2" style="text-align: justify;">TERROR</h2>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <h3 class="mb-3">Bitelchús</h3>
+                <a href="https://youtu.be/9SzBZZhN0fQM" target="_blank">
+                <img src="Fotos/Bitelchús.jpg" class="img-fluid" alt="Bittlechussss"> 
+                </a>
+                <h4 class="mt-3" style="text-align: justify;">Duración: 104 minutos</h4>
+                <p style="text-align: justify;">¡Vuelve Bitelchús! Después de una tragedia familiar inesperada, tres generaciones de la familia Deetz regresan a su hogar en la pequeña ciudad de Winter River. 
+                  La vida de Lydia, que sigue atormentada por Bitelchús, da un vuelco cuando Astrid, su rebelde hija adolescente, descubre la misteriosa maqueta de la ciudad en el ático y el portal al Más Allá se abre de forma accidental.
+                  Con tantos problemas en ambos mundos, es sólo cuestión de tiempo que alguien diga tres veces el nombre de Bitelchús y el travieso demonio vuelva a las andadas para desatar su particular caos.
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope ="col">Día</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Formato</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Hoy</th>
+                        <td>17:00h</td>
+                        <td>2D</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Jueves</th>
+                        <td>20:30h</td>
+                        <td>4DX</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Viernes</th>
+                        <td>22:00h</td>
+                        <td>2D</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              <div class="col">
+                <h3 class="mb-3">No hables con extraños</h3>
+                <a href="hhttps://youtu.be/hq99V6sIcGA" target="_blank">
+                  <img src="Fotos/No hables con extraños.jpg" class="img-fluid" alt="No hables extraños">
+                </a>
+                <h4 class="mt-3" style="text-align: justify;">Duración: 110 minutos</h4>
+                <p style="text-align: justify;">Cuando una familia americana es invitada a pasar el fin de semana en la idílica finca de una encantadora familia británica con la que entablaron amistad durante las vacaciones, lo que comienza como unas vacaciones de ensueño pronto se convierte en una pesadilla psicológica.
+                </p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope ="col">Día</th>
+                      <th scope="col">Hora</th>
+                      <th scope="col">Formato</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Hoy</th>
+                      <td>19:45h</td>
+                      <td>2D</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Jueves</th>
+                      <td>19:00h</td>
+                      <td>2D</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Viernes</th>
+                      <td>22:00h</td>
+                      <td>2D</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col">
+                <h3 class="mb-3">El hombre del saco</h3>
+                <a href="https://youtu.be/LO9l151vcUI" target="_blank">
+                  <img src="Fotos/Hombre del saco.jpg" class="img-fluid" alt="Hombre saco">
+                </a>
+                <h4 class="mt-3" style="text-align: justify;">Duración: 93 minutos</h4>
+                <p style="text-align: justify;"> Durante siglos, los padres han advertido a sus hijos sobre el temible Hombre del Saco, un ser maligno que rapta a niños inocentes y los aparta para siempre de sus familias. 
+                  Patrick (Sam Claflin) escapó de sus garras por los pelos en su infancia, pero el trauma que le generó aquel encuentro le ha perseguido desde entonces. 
+                  Tras mudarse a su antigua casa familiar con su esposa e hijo, Patrick descubrirá que la tenebrosa criatura continúa allí, acechando sus pesadillas y amenazando con arrebatarle aquello que más quiere en el mundo.
+                </p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope ="col">Día</th>
+                      <th scope="col">Hora</th>
+                      <th scope="col">Formato</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Hoy</th>
+                      <td>19:30h</td>
+                      <td>2D</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Jueves</th>
+                      <td>20:00h</td>
+                      <td>2D</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Viernes</th>
+                      <td>22:30h</td>
+                      <td>2D</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+      </section>
+      <!--Columna animacion-->
+      <section id="animacion">
+      <h2 style="text-align: justify;">ANIMACIÓN</h2>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <h3 class="mb-3">Gru 4: mi villano favorito</h3>
+                  <a href="https://youtu.be/ulPKDcGwxUg" target="_blank">
+                  <img src="Fotos/Gru4 cartel.jpg" class="img-fluid" alt="Gru4"> 
+                  </a>
+                  <h4 class="mt-3" style="text-align: justify;">Duración: 95 minutos</h4>
+                  <p style="text-align: justify;">Después de siete años, nuestro supervillano favorito, ahora convertido en agente de la Liga Anti Villanos, vuelve con una impactante y frenética entrega de caos al más puro estilo Minion en la esperadísima nueva película de Illumination: GRU 4 MI VILLANO FAVORITO.</p>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope ="col">Día</th>
+                          <th scope="col">Hora</th>
+                          <th scope="col">Formato</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Hoy</th>
+                          <td>16:00h</td>
+                          <td>3D</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Jueves</th>
+                          <td>18:00h</td>
+                          <td>2D</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Viernes</th>
+                          <td>17:00h</td>
+                          <td>2D</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <div class="col">
+                  <h3 class="mb-3">Robot Salvaje</h3>
+                  <a href="https://youtu.be/4zWux-Bqt40" target="_blank">
+                    <img src="Fotos/Robot salvaje cartel.jpg" class="img-fluid" alt="Robot Salvaje">
+                  </a>
+                  <h4 class="mt-3" style="text-align: justify;">Duración: 101 minutos</h4>
+                  <p style="text-align: justify;">Esta épica aventura nos descubre el viaje de una robot (la unidad ROZZUM 7134 o «Roz») que ha naufragado en una isla deshabitada y deberá aprender a adaptarse al duro entorno, forjando poco a poco relaciones con la fauna local y convirtiéndose en madre adoptiva de una cría de ganso huérfana.
+                  </p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope ="col">Día</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Formato</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Hoy</th>
+                        <td>17:00h</td>
+                        <td>2D</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Jueves</th>
+                        <td>19:00h</td>
+                        <td>2D</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Viernes</th>
+                        <td>20:00h</td>
+                        <td>2D</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col">
+                  <h3 class="mb-3">Mufasa</h3>
+                  <a href="https://youtu.be/0x_YL34QH5g" target="_blank">
+                    <img src="Fotos/Mufasa cartel.jpg" class="img-fluid" alt="Kraven">
+                  </a>
+                  <h4 class="mt-3" style="text-align: justify;">Duración: 100 minutos</h4>
+                  <p style="text-align: justify;"> En Mufasa: El Rey León, Rafiki debe transmitir la leyenda de Mufasa a la joven cachorro de león Kiara, hija de Simba y Nala, con Timón y Pumba aportando su estilo característico. 
+                    La historia se cuenta en flashbacks y presenta a Mufasa como un cachorro huérfano, perdido y solo hasta que conoce a un simpático león llamado Taka, heredero de un linaje real. 
+                    Este encuentro casual pone en marcha un viaje de un extraordinario grupo de inadaptados que buscan su destino.
+                    Y sus vínculos se pondrán a prueba mientras trabajan juntos para escapar de un enemigo amenazador y letal.
+                  </p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope ="col">Día</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Formato</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Hoy</th>
+                        <td>16:30h</td>
+                        <td>4D</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Jueves</th>
+                        <td>17:00h</td>
+                        <td>2D</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Viernes</th>
+                        <td>19:00h</td>
+                        <td>3D</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+      </section>
+      
+      <div>
+        <section id="promociones">
+         <h1 style="text-align: center;">PROMOCIONES</h1>
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="Promociones/Copia de PROMObonocultural.png" class="img-fluid" alt="cultural">
+              <h5 class="mt-3">BONO CULTURAL JOVEN</h5>
+            </div>
+            <div class="col">
+              <img src="Promociones/PRomo failia numerosa.png" class="img-fluid" alt="familia">
+              <h5 class="mt-3">PACK FAMILIA NUMEROSA</h5>
+            </div>
+            <div class="col">
+              <img src="Promociones/PROMOsocio.png" class="img-fluid" alt="socios">
+              <h5 class="mt-3">SOCIOS</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="Promociones/PROMO CARNETJOVEN.png" class="img-fluid" alt="cultural">
+              <h5 class="mt-3">CARNET JOVEN</h5>
+            </div>
+            <div class="col">
+              <img src="Promociones/PROMO MIERCOLES.png" class="img-fluid" alt="familia">
+              <h5 class="mt-3">MIÉRCOLES A 4,50€</h5>
+            </div>
+            <div class="col">
+              <img src="Promociones/PROMO CUMPLE.png" class="img-fluid" alt="socios">
+              <h5 class="mt-3">TU CUMPLEAÑOS</h5>
+            </div>
+          </div>
+        </div>
+      </div> 
+        </section>
+      <section id="Bonos">
+        <h1 style="text-align: center;">BONOS</h1>
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="Bonos/Unlimited luxe.jpg" class="img-fluid" alt="cultural">
+              <h5 class="mt-3">UNLIMITED LUXE (PLAN ANUAL)</h5>
+            </div>
+            <div class="col">
+              <img src="Bonos/Lunes-jueves.jpg" class="img-fluid" alt="familia">
+              <h5 class="mt-3">5 ENTRADAS LUNES A JUEVES</h5>
+            </div>
+            <div class="col">
+              <img src="Bonos/Lunes-domingo.jpg" class="img-fluid" alt="socios">
+              <h5 class="mt-3">5 ENTRADAS LUNES A DOMINGO</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
 
     </script>
