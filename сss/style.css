@@ -5,24 +5,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(15,15,48) !important;
 }
 
 /* Estils per a la navbar */
 nav {
     background-color: #f8f9fa;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 nav ul li a {
@@ -32,21 +32,21 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: rgb(15, 15, 48);
 }
 
-/* Estils per al contenidor principal */
+/* Estils per al contenidor principal 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
+    color:#f1f1f1;
 }
-
+*/
 /* Estils per a les files i columnes */
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin-bottom: 20px;
 }
 
@@ -55,15 +55,16 @@ nav ul li a:hover {
     min-width: 300px;
     margin: 10px;
     padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 8px;
+    background-color: rgb(15, 15, 48);
+    border-radius: 1px;
 }
 
 /* Estils per a títols i paràgrafs */
-h1, h2 {
-    color: #333;
+h1 {
+    padding: 20px;
 }
 
 p {
-    color: #666;
+    font-size: 20px;
+    color: #f9f4f4;
 }
